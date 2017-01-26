@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Itunes</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+<nav class="navbar navmove">
+ 
+    <div class="navbar-header">
+        <img alt="Brand" src="apple.png">
+     <!--<a> itunes- get more from apple  </a>-->
+     
+    </div>
+ 
+</nav>
+
+
+
+    <form class="form-inline" onsubmit="itunesCtrl.getMusic(event)">
+<!--DO NOT MODIFY THE ID OR ONCLICK ATTRIBUTES IN THIS FORM-->
+<div class="">
+    <div class="container">
+        <div class="row row-padding">
+            <div class="col-md-4 col-md-offset-4 artist-name">
+                <input type="text" class="form-control" name="artist" placeholder="Artist Name" />
+                <button type="submit" class="btn btn-primary" id="get-music-button">preview the music</button>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+<div id="songs ">
+    <div class="container">
+        <div class="row row-padding">
+            <div class="col-md-8 col-md-offset-2" id="song-list">
+                <!--SONGS ADDED DYNAMICALLY HERE-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="itunes-service.js"></script>
+<script src="app.js"></script>
+
+
+
+</body>
+
+</html>

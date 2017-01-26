@@ -1,0 +1,43 @@
+
+
+.artist-name{
+    display: flex;
+    justify-content: center;
+}
+
+.song-format{
+  /*height: 100%;*/
+  width: 63%;
+  border: 5px solid red;
+  /*display: flex;*/
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 8px;
+  border-radius: 10px;
+  float: left;
+  margin: 2%;
+  margin-left: 18%;
+}
+
+.img-container{
+  overflow:hidden;
+  display: flex;
+  border-radius: 10px;
+}
+
+
+.img{
+  min-width: 100%;
+}
+
+.row-padding{
+    padding-top: 25;
+
+}
+.background{
+ background-image: url("music.png");
+}
+.navmove{
+    /*justify-content: center;*/
+    left: 45%;
+}
